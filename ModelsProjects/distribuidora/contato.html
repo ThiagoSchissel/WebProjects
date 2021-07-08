@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/form.css" />
+
+    <title>Contato</title>
+
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #27024d">
+        <img src="img/logo.jpg" width="30" height="30" class="d-inline-blockalign-top">
+        <a href="#" class="navbar-brand">Distribuidora</a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target"><span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="nav-target">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="mercadoria.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Mercadorias</a>
+                    <div class="dropdown-menu">
+                        <a href="mercadoria.html" class="dropdown-item">Fermentadas</a>
+                        <a href="mercadoria.html" class="dropdown-item">Destilados</a>
+                        <a href="mercadoria.html" class="dropdown-item">Sem Álcool</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br><br>
+    
+    <form class="form-contato validar">
+
+    	<div class="coluna coluna-esq">
+    		<label for="">Nome:</label>
+    		<input type="text" id="nome" />
+    	</div>
+    	<div class="coluna">
+    		<label for="">Telefone:</label>
+    		<div class="ddd"><input type="text" id="ddd" maxlength="2" class="ddd" /></div>
+    		<div class="tel"><input type="text" id="fone" maxlength="10" class="tel" /></div>
+    	</div>
+    	<div class="coluna coluna-esq">
+    		<label for="">Endereço:</label>
+    		<input type="text" id="assunto" />
+
+    		<label for="">E-mail:</label>
+    		<input type="email" id="email" />
+
+    		<label for="">Assunto:</label>
+    		<div class="controla-select">
+    			<select><option value="1">Sem Álcool</option><option value="2">Destilados</option><option value="3">Fermentadas</option></select>
+    		</div>
+    	</div>
+    	<div class="coluna">
+    		<label for="">Mensagem:</label>
+    		<textarea id="msg"></textarea>
+    	</div>
+    	<button type="submit" id="enviar">Enviar</button>
+    </form>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+</body>
+</html>
